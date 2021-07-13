@@ -42,7 +42,6 @@ input:focus-visible {
 
 .input-form {
     position: relative;
-    border: 1px solid black;
 }
 
 .icon-search {
