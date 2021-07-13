@@ -3,87 +3,63 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" href="reset.css">
+  <!-- <link rel="stylesheet" href="reset.css"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta charset="utf-8">
   <title>Google</title>
 </head>
 
-<!-- <div id="container"> -->
-  <div id="navigation">
-    <header>
-      <nav>
-        <ul class="nav-grid">
-          <li>
-            About
-          </li>
-          <li>
-            Store
-          </li>
-          <li>
-            Gmail
-          </li>
-          <li>
-            Images
-          </li>
-          <li>
-            <a href="#">App Box</a>
-          </li>
-          <li>
-            <a href="#">Profile Pic</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </div>
+<div class="container">
+  <nav>
+    <div class="flex-nav">
+      <a href="About">About</a>
+      <a href="Store">Store</a>
+    </div>
+    <div class="flex-nav">
+      <a href="Gmail">Gmail</a>
+      <a href="Images">Images</a>
+      <a href="Apps">Apps</a>
+      <a href="Profile">Profile</a>
+    </div>
 
+  </nav>
 
-  <div id="content-container">
-
-    <body>
-      <image class="google-logo-img"
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google"></image>
-      <input type="text" required></input>
+  <main>
+    <div class="content">
+      <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo">
+      <div>
+        <form class="input-form">
+          <i class="material-icons icon-search">search</i>
+          <input type="text" size="70" required></input>
+        </form>
+      </div>
       <button type="button">Google Search</button>
-      <button type="button">I'm Feeling Lucky</button>
-    </body>
-  </div>
+      <button type="button">I'm feeling lucky</button>
+    </div>
+  </main>
 
-  <div id="footer">
-    <footer>
-      <nav>
-        <div>
-          <ul>
-            <li>
-              Advertising
-            </li>
-            <li>
-              Business
-            </li>
-            <li>
-              How Search works
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p>Carbon neutral since 2007</p>
-        </div>
-        <div>
-          <ul>
-            <li>
-              Privacy
-            </li>
-            <li>
-              Terms
-            </li>
-            <li>
-              Settings
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </footer>
-  </div>
-<!-- </div> -->
+
+  <footer>
+    <div class="flex-footer">
+      <a href="Advertising">Advertising</a>
+      <a href="Business">Business</a>
+      <a href="How Search works">How Search works</a>
+    </div>
+    <div class="carbon-neutral">
+      <a href="Carbon neutral since 2007"><img class="little-leaf" src="Media/little-leaf.png" alt="Little leaf">Carbon
+        neutral since 2007</a>
+    </div>
+    <div class="flex-footer">
+      <a href="Privacy">Privacy</a>
+      <a href="Terms">Terms</a>
+      <a href="Settings">Settings</a>
+    </div>
+  </footer>
+</div>
 
 </html>
