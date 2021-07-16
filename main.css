@@ -22,18 +22,31 @@ footer a {
     color: #70757a;
 }
 
-main input {
-    display: block;
-    padding: 10px;
-    margin: 1.5rem;
-    width: auto;
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 550px;
+    margin: 15px 0;
     border-radius: 24px;
-    height: 25px;
     border: 1px solid #dfe1e5;
+    text-align: center;
 }
 
-input:hover {
+form:hover {
     box-shadow: 1px 1px 5px rgb(0,0,0,10%);
+}
+
+input {
+    height: 30px;
+    width: 480px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 16px;
+    outline: none;
+    border: white;
 }
 
 input:focus-visible {
@@ -42,12 +55,38 @@ input:focus-visible {
 
 .input-form {
     position: relative;
+    margin: 22px 0;
 }
 
-.icon-search {
-    position: absolute;
-    left: 38px;
-    top: 36px;
+span.icon-search {
+    left: 0;
+    padding-left: 15px;
+    font-size: 28px;
+    color:rgb(0, 0, 0, 50%);
+    background-color: rgb(0, 0, 0, 0%);
+}
+
+span.icon-mic {
+    font-size: 28px;
+    padding-right: 15px;
+    color:rgb(0, 0, 0, 50%);
+}
+
+span.icon-apps {
+    position: relative;
+    color:rgb(0, 0, 0, 65%);
+    font-size: 26px;
+}
+
+.flex-nav-02 {
+    display: flex;
+    align-items: center;
+}
+
+.google-profile-icon {
+    display: block;
+    height: auto;
+    width: 40px;
 }
 
 button {
